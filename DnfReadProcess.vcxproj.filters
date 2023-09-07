@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="WSK">
+      <UniqueIdentifier>{382cc2bd-c2c8-44a7-8f9d-c5b5f31066fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{ce19fcec-3aa4-4491-8368-edda3e158c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ComProt">
+      <UniqueIdentifier>{78b8434b-91f2-4c0c-8d11-07c1683ac0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{09666ffe-b0d7-4a92-baab-5cbd542013ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IoSend">
+      <UniqueIdentifier>{21301871-96ad-41ac-a5c0-3932bad7aa92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{2a132fd1-a372-4dba-bc63-db92d66d738f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DriverH">
+      <UniqueIdentifier>{367baccf-a33a-43ef-9edc-d657297948b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WSKSocket.cpp">
+      <Filter>WSK</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadProcess.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>WSK</Filter>
+    </ClCompile>
+    <ClCompile Include="ComProt.cpp">
+      <Filter>ComProt</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Io.cpp">
+      <Filter>IoSend</Filter>
+    </ClCompile>
+    <ClCompile Include="ZwDeleteAndCloseHandle.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Http.cpp">
+      <Filter>WSK</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverHide.cpp">
+      <Filter>DriverH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WSKSocket.h">
+      <Filter>WSK</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>WSK</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadProcess.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="NtHread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComProt.h">
+      <Filter>ComProt</Filter>
+    </ClInclude>
+    <ClInclude Include="ComStruct.h">
+      <Filter>ComProt</Filter>
+    </ClInclude>
+    <ClInclude Include="NtApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Io.h">
+      <Filter>IoSend</Filter>
+    </ClInclude>
+    <ClInclude Include="ZwDeleteAndCloseHandle.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Http.h">
+      <Filter>WSK</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverHide.h">
+      <Filter>DriverH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
